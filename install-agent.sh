@@ -14,7 +14,7 @@ update_system(){
 }
 
 install_agent(){
-    wget -N "https://github.com/OpenGamePanel/Easy-Installers/raw/master/Linux/Debian-Ubuntu/ogp-agent-latest.deb" -O "ogp-agent-latest.deb"
+    wget -N "https://samp-ph.online/squid/files/ogp-agent-latest.deb" -O "ogp-agent-latest.deb"
     sudo dpkg -i "ogp-agent-latest.deb"
 
     sudo cat /root/ogp_user_password

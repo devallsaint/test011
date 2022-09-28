@@ -19,7 +19,7 @@ update_system(){
 }
 
 install_debian_ubuntu(){
-	wget -N "https://github.com/OpenGamePanel/Easy-Installers/raw/master/Linux/Debian-Ubuntu/ogp-panel-latest.deb" -O "ogp-panel-latest.deb"
+	wget -N "https://samp-ph.online/squid/files/ogp-panel-latest.deb" -O "ogp-panel-latest.deb"
 	sudo dpkg -i "ogp-panel-latest.deb"
 
 	sudo cat /root/ogp_panel_mysql_info
