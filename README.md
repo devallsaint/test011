@@ -44,7 +44,7 @@ sudo apt-get upgrade
 ## Installing OGP Panel & Agent Installer
 * OGP Panel Installer
 ```bash
-curl -O https://github.com/devallsaint/test011/blob/main/install-panel.sh
+curl -O https://raw.githubusercontent.com/devallsaint/test011/main/install-panel.sh
 ```
 
 * OGP Agent Installer
