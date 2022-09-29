@@ -31,6 +31,9 @@ if [ "$ID" == "debian" ]; then
     #Updating
     update_system
 
+    #SAMP REQUIREMENTS ADDED BY: SQUID
+    sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6
+
     # Installing required packages
     sudo apt -y install libxml-parser-perl libpath-class-perl perl-modules screen rsync sudo e2fsprogs unzip subversion pure-ftpd libarchive-zip-perl libc6 libgcc1 git curl
     sudo apt -y install libc6-i386 lib32gcc1
